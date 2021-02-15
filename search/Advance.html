@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advance</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+             body {
+                font-family: Calibri;
+                margin: 0;
+                
+            }
+                        
+            button {
+                margin-left: 450px;
+                text-align: center;
+                background-color: #4A8DFB;
+                color: white;
+            }
+            .form-control {
+                width: 550px;
+                margin: -7px;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            
+            img {
+                width: 100px;
+                height: auto;
+                margin: 10px;
+                
+            }
+            #head{
+                text-align: right; 
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+                color: black; 
+                font-size: smaller;
+                
+                
+            }
+            div {
+                width: 101%;
+            }
+        </style>
+    </head>
+    <body >
+        
+        <form action="https://www.google.com/search">
+            <div class="row" style="background-color: #F1F1F1;">
+                <div class="col-sm-4" >
+                    <div ><img src="google.png"></div>
+                </div>
+                <div class="col-sm-8">
+                        <p id="head"><a href="index.html" style="color: black;">Search</a></p>
+                </div>
+            </div>
+            <p style="font-size: x-large; margin-left: 50px; margin-top: 20px; color: red;">Advanced Search</p>
+            <p style="border-bottom: 1px solid #F1F1F1;"></p><br>
+            <h5 style="margin-left: 50px;">Finde pages with...</h5>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-sm-2" style="margin-left: 50px;">    
+                    <p>all these words:</p><br>
+                    <p>this exact word or phrase:</p><br>
+                    <p>any of these words:</p><br>
+                    <p>none of these words:</p><br>
+                </div>
+                <div class="col-sm-1" >
+                    
+                    <p>
+                        <input type="text" class="form-control" name="as_q">
+                    </p><br>
+                    <p>
+                        <input type="text" class="form-control" name="as_epq">
+                    </p><br>
+                    <p>
+                        <input type="text" class="form-control" name="as_oq">
+                    </p><br>
+                    <p>
+                        <input type="text" class="form-control" name="as_eq">
+                    </p><br>
+                        
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Google Advance Search</button>
+            
+        </form>
+        
+    </body>
+</html>
